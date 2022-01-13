@@ -25,12 +25,38 @@ body {
 	display: block;
 }
 
-.spanthingylol {
+span {
 	font-size: 23px;
 	margin-right: 4px;
 }
 .conditional-nosel {
 	background-color: white;
+}
+.greeeeeeen {
+	background-color: green;
+}
+.greyyyyyyy {
+	background-color: darkgrey;
+}
+i {
+	margin-left: 20px;
+}
+.whiiiiiite {
+	background-color: white;
+}
+.otherhidden { /* TODO: add func to REMOVE classes instead of ADDING them if there's a minus sign in front to get rid of all this duplication */
+	display: none;
+}
+.othergrey { background-color: darkgrey; }
+.othergreen { background-color:green;    }
+
+#variablepicto {
+	border-color: black;
+	border-radius: 5px;
+	max-height: 30px;
+}
+.t {
+	font-size: 22px;
 }
 </style>
 
@@ -40,11 +66,40 @@ body {
 		<title>Concepts du programmation simples</title>
 	</head>
 	<body>
-		<div id="conditional-sel conditional-init" class="hidden">
-			<span class="spanthingylol" style="margin-left: 5px;">set</span> hello = 1<br>
+		<div class="hidden variable" id="variablemain">
+			<h1>Les Variables</h1>
+			<div id="variablepicto">
+				<p class="t" style="font-size: 37px; position: absolute; top: 134px; left: 69px;">x = 1</p>
+				<p class="t" style="font-size: 27px;">0x135388899137840 = 0x1</p>
+				<p class="t" style="font-size: 21px;margin-left: 80px;"><code><s>dire 1</s> dire x</code></p>
+			</div>
 		</div>
-		<div id="conditional-one" class="conditional hidden">
-			<span class="spanthingylol">if</span> hello == 1
+		<div class="hidden firstconditionalset">
+			<h1>Conditionelles (Conditionals)</h1>
+		</div>
+		<div id="conditional-init" class="firstconditionalset conditional-sel hidden conditional">
+			<span class="spanthingylol">maintenant</span> hello est 1<br>
+		</div>
+		<div id="conditional-altinit" class="conditional hidden conditional-altinitt">
+			<span class="spanthingylol">maintenant</span> hello est 0<br>
+		</div>
+		<div id="conditional-one" class="firstconditionalset conditional hidden">
+			<span class="spanthingylol">si</span> hello est 1
+		</div>
+		<div id="conditional-one-into" class="firstconditionalset conditional hidden">
+			<i>faire quelque chose</i>
+		</div>
+		<div class="agreyyyyyyy firstconditionalset conditional hidden">
+			<span class="spanthingylol">sinon, mais</span> hello est 2
+		</div>
+		<div class="agreyyyyyyy firstconditionalset conditional hidden">
+			<i>faire quelque chose d'autre</i>
+		</div>
+		<div class="conditional-gogrey firstconditionalset conditional hidden">
+			<span class="spanthingylol">sinon</span>
+		</div>
+		<div class="conditional-gogrey firstconditionalset conditional hidden">
+			<i>et maintenant, pour quelque chose complètement différent !</i>
 		</div>
 		<h1 id="title">Concepts du programmation simples</h1>
 	</body>
@@ -52,5 +107,3 @@ body {
 
 <script src="support.js">
 </script>
-
-

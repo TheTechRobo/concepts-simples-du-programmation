@@ -1,0 +1,5 @@
+Notes
+=====
+Explain what regler means. (adjust, but say it in french so something like `On modifie le variable')
+
+nous pouvons mettre des valueurs dans la memoire du ordi
