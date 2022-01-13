@@ -1,0 +1,56 @@
+<style> /* lets set up some classes! */
+body {
+	font-family: Ubuntu, sans-serif;
+}
+.title_hidden {
+	display: none;
+}
+.hidden {
+	display: none;
+}
+
+.conditional {
+	background-color: white;
+	border-color: black;
+	padding: 10px;
+	border-radius: 1px;
+	font-size: 15px;
+}
+
+.conditional-sel {
+	background-color: yellow;
+}
+
+.nothiddenlol {
+	display: block;
+}
+
+.spanthingylol {
+	font-size: 23px;
+	margin-right: 4px;
+}
+.conditional-nosel {
+	background-color: white;
+}
+</style>
+
+
+<html>
+	<head>
+		<title>Concepts du programmation simples</title>
+	</head>
+	<body>
+		<div id="conditional-sel conditional-init" class="hidden">
+			<span class="spanthingylol" style="margin-left: 5px;">set</span> hello = 1<br>
+		</div>
+		<div id="conditional-one" class="conditional hidden">
+			<span class="spanthingylol">if</span> hello == 1
+		</div>
+		<h1 id="title">Concepts du programmation simples</h1>
+	</body>
+</html>
+
+<script src="support.js">
+</script>
+
+
