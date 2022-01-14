@@ -9,7 +9,7 @@ body {
 	display: none;
 }
 
-.conditional {
+.conditional, div {
 	background-color: white;
 	border-color: black;
 	padding: 10px;
@@ -69,9 +69,9 @@ i {
 		<div class="hidden variable" id="variablemain">
 			<h1>Les Variables</h1>
 			<div id="variablepicto">
-				<p class="t" style="font-size: 37px; position: absolute; top: 134px; left: 69px;">x = 1</p>
+				<p class="t" style="font-size: 37px; position: absolute; top: 144px; left: 69px;">x = 1</p>
 				<p class="t" style="font-size: 27px;">0x135388899137840 = 0x1</p>
-				<p class="t" style="font-size: 21px;margin-left: 80px;"><code><s>dire 1</s> dire x</code></p>
+				<p class="t" style="font-size: 21px;margin-left: 30px; padding-top: 50px;"><code><s>dire 1</s> dire x</code></p>
 			</div>
 		</div>
 		<div class="hidden firstconditionalset">
@@ -92,14 +92,24 @@ i {
 		<div class="agreyyyyyyy firstconditionalset conditional hidden">
 			<span class="spanthingylol">sinon, mais</span> hello est 2
 		</div>
-		<div class="agreyyyyyyy firstconditionalset conditional hidden">
-			<i>faire quelque chose d'autre</i>
+	<div class="agreyyyyyyy firstconditionalset conditional hidden">
+		<i>faire quelque chose d'autre</i>
+	</div>
+	<div class="conditional-gogrey firstconditionalset conditional hidden">
+		<span class="spanthingylol">sinon</span>
+	</div>
+	<div class="conditional-gogrey firstconditionalset conditional hidden">
+		<i>et maintenant, pour quelque chose complètement différent !</i>
+	</div>
+	<div class="hidden functions">
+		<h1>Les fonctions</h1>
+		<div id="function-definition" class="conditional">
+			<span>fonction</span> salut (nom)
 		</div>
-		<div class="conditional-gogrey firstconditionalset conditional hidden">
-			<span class="spanthingylol">sinon</span>
+		<div id="function-data"><span>dire</span> "salut"<br><span>dire </span>nom</div>
+			<div id="function-return"><span>retourner</span> "salut"</div>
 		</div>
-		<div class="conditional-gogrey firstconditionalset conditional hidden">
-			<i>et maintenant, pour quelque chose complètement différent !</i>
+		<div class="hidden objects">
 		</div>
 		<h1 id="title">Concepts du programmation simples</h1>
 	</body>

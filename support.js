@@ -31,6 +31,10 @@ const presentation = [ // the array
 		"conditional-one": "othergrey",
 		"conditional-one-into": "othergrey",
 		"conditional-gogrey": "othergreen",
+	}, {
+		"functions": "nothiddenlol",
+		"firstconditionalset": "otherhidden",
+		"conditional-altinitt": "otherhidden",
 	},
 ];
 end = false; // this way we can ignore keypresses after the presentation is done
