@@ -38,6 +38,9 @@ const presentation = [ // the array
 	}, {
 		"functions": "otherhidden",
 		"objects": "nothiddenlol",
+	}, {
+		"objects": "otherhidden",
+		"loop": "nothiddenlol",
 	},
 ];
 end = false; // this way we can ignore keypresses after the presentation is done
