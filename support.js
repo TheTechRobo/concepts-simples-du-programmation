@@ -35,6 +35,9 @@ const presentation = [ // the array
 		"functions": "nothiddenlol",
 		"firstconditionalset": "otherhidden",
 		"conditional-altinitt": "otherhidden",
+	}, {
+		"functions": "otherhidden",
+		"objects": "nothiddenlol",
 	},
 ];
 end = false; // this way we can ignore keypresses after the presentation is done

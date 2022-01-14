@@ -62,10 +62,10 @@ i {
 
 
 <html>
-	<head>
-		<title>Concepts du programmation simples</title>
-	</head>
-	<body>
+<head>
+	<title>Concepts du programmation simples</title>
+</head>
+<body>
 		<div class="hidden variable" id="variablemain">
 			<h1>Les Variables</h1>
 			<div id="variablepicto">
@@ -104,15 +104,36 @@ i {
 	<div class="hidden functions">
 		<h1>Les fonctions</h1>
 		<div id="function-definition" class="conditional">
-			<span>fonction</span> salut (nom)
+			<span>fonction</span> salut (nom) {
 		</div>
-		<div id="function-data"><span>dire</span> "salut"<br><span>dire </span>nom</div>
-			<div id="function-return"><span>retourner</span> "salut"</div>
-		</div>
-		<div class="hidden objects">
-		</div>
-		<h1 id="title">Concepts du programmation simples</h1>
-	</body>
+		<div style="margin-left:30px;" class="function-data"><span>dire</span> "salut"</div>
+		<div style="margin-left:30px;" class="function-data"><span>dire </span>nom</div>
+		<div style="margin-left:30px;" id="function-return"><span>retourner</span> "salut"</div>
+		<i>
+			Qu'est-ce que tu pense ça va retourner ?
+		</i>
+	</div>
+
+	<div class="hidden objects">
+		<h1>Les objets</h1>
+		<div id="object-declaration"><span>classe</span> Animal</div>
+		<div style="margin-left:30px;" id="object-function-manger"><span>fonction</span> manger()</div>
+		<div style="margin-left:60px;" id="object-function-manger-data"><span>maintenant ceci</span>.<span>estomac</span> est "plein"</div>
+		<div id="object-2-declaration"><span>classe</span> Mouton, dérivant de Animal</span></div>
+		<div style="margin-left:30px;" id="object-data-sheared"><span>fonction</span> constructer()</div>
+		<div style="margin-left:60px;" id="object-data-constructor"><span>maintenant</span> ceci.tondé est faux</div>
+		<div style="margin-left:30px;" id="object-function-tondre"><span>fonction</span> tondre()</div>
+		<div style="margin-left:60px;" class="object-function-tondre-contents"><span>si</span> ceci.tondé est vrai</div>
+		<div style="margin-left:90px;" class="object-function-tondre-contents"><span>dire</span> "Je suis déjà tondé !"</div>
+		<div style="margin-left:90px;" class="object-function-tondre-contents"><span>retourner</span> faux</div>
+		<div style="margin-left:60px;" class="object-function-tondre-contents"><span>maintenant</span> ceci.tondé est vrai</div>
+		<div class="object-demo"><span>maintenant</span> ma_mouton est un nouveau Mouton</div>
+		<div class="object-demo"><span>Mouton.manger()</span></div>
+		<div class="object-demo"><span>Mouton.tondre()</span></div>
+		<div class="object-demo"><span>Mouton.tondre()</span> // retourne faux</div>
+	</div>
+	<h1 id="title">Concepts du programmation simples</h1>
+</body>
 </html>
 
 <script src="support.js">
