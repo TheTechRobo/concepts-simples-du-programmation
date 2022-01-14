@@ -43,6 +43,9 @@ const presentation = [ // the array
 		"loop": "nothiddenlol",
 	}, {
 		"loop": "otherhidden",
+		"math": "nothiddenlol",
+	}, {
+		"math": "otherhidden",
 		"BUTWAITT": "BUTWAIT",
 		"BUTWAIT": "nothiddenlol",
 	}
