@@ -1,5 +1,10 @@
 Notes
 =====
-Explain what regler means. (adjust, but say it in french so something like `On modifie le variable')
 
-nous pouvons mettre des valueurs dans la memoire du ordi
+VARIABLES: nous pouvons mettre des valueurs dans la memoire du ordi avec des noms.
+
+FONCTIONS: Les fonctions peuvent avoir des ARGUMENTS (variables passés au fonction) et retourner des valeurs.
+
+OBJETS: Les objets sont des collections des variables et fonctions. Tu peux faire une nouvelle classe basé sur une vieux classe comme tu peux voir ici avec le mouton.
+
+LA FIN! Il y a plus mais...

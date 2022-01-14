@@ -41,7 +41,11 @@ const presentation = [ // the array
 	}, {
 		"objects": "otherhidden",
 		"loop": "nothiddenlol",
-	},
+	}, {
+		"loop": "otherhidden",
+		"BUTWAITT": "BUTWAIT",
+		"BUTWAIT": "nothiddenlol",
+	}
 ];
 end = false; // this way we can ignore keypresses after the presentation is done
 function advancePresentation() {

@@ -58,6 +58,17 @@ i {
 .t {
 	font-size: 22px;
 }
+@keyframes theresmore {
+	0% { transform: scale(2, 1); }
+	75% { transform: scaleY(3); }
+	85% { transform: scale(0.4, 1); }
+}
+.BUTWAIT {
+	animation-name: theresmore;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
 </style>
 
 
@@ -145,6 +156,7 @@ i {
 		<div id="loop-for-declaration"><span>pour chaque</span> fruit dans fruits</div>
 		<div style="margin-left:60px;"id="loop-for-contents"><span>dire</span> "J'aime les " fruit</div>
 	</div>
+	<div id="BUTWAITT" class="hidden" style="font-size:40px;">Ce n'est pas tous les concepts, mais c'est les plus simples</div>
 	<h1 class="title">Concepts du programmation simples</h1>
 	<p class="title" >J'ai créé ce site Web !</p>
 </body>
